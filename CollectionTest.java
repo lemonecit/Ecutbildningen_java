@@ -3,7 +3,7 @@ package inlamningsuppgift_first;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class collectionTest {
+public class CollectionTest {
 
     @Test
     void testGetTotalChars() {
