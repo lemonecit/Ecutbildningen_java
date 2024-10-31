@@ -1,6 +1,6 @@
 package inlamningsuppgift_first;
 
-
+//test
 public class collectionMain {
 
     static collectionModules importClass = new collectionModules();

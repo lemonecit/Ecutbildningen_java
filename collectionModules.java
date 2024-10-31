@@ -30,7 +30,7 @@ public class collectionModules {
             return "stopp".equalsIgnoreCase(getValue);
         }
     }
-
+//test
     public void countCharAndLine(String line) {
         TotalChars += line.length();
         TotalLines++;
