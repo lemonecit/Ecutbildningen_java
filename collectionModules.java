@@ -4,8 +4,8 @@ package inlamningsuppgift_first;
 //Mjukvarutestning utbildning
 
 
-
 //import area
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -20,7 +20,7 @@ public class collectionModules {
     private String longestString = " ";
     String getValue;
 
-//    New class
+    //    New class
     ArrayList<String> longest = new ArrayList<>();
     Scanner inputing = new Scanner(System.in);
     LogikClass logik = new LogikClass();
@@ -30,11 +30,11 @@ public class collectionModules {
             return "stopp".equalsIgnoreCase(getValue);
         }
     }
-//test
+
+    //test
     public void countCharAndLine(String line) {
         TotalChars += line.length();
         TotalLines++;
-
     }
 
 //    Going through simple for loop to check which of strings is longest
@@ -81,7 +81,8 @@ public class collectionModules {
         System.out.println("Tack för att du använt vår tjänst!");
 
     }
-//just for fun, this is not included in the case
+
+    //just for fun, this is not included in the case
     static void Tack() {
 
         {
@@ -103,7 +104,7 @@ public class collectionModules {
 
     // metoder
 
-//Adds all inner class into printLoopForInput for printing in collectionMain
+    //Adds all inner class into printLoopForInput for printing in collectionMain
     public void printLoopForInput() {
         for (int i = 0; i < 2; i++) {
             System.out.println(" ");
@@ -124,7 +125,8 @@ public class collectionModules {
                 System.out.println(" ");
 
 
-                break;}
+                break;
+            }
 
 //            Possible to use other solution is if
 //            if (getValue.equalsIgnoreCase("stopp")) {
@@ -147,7 +149,6 @@ public class collectionModules {
 
         }
 
-
         while (true);
 
 //        printing area
@@ -159,11 +160,9 @@ public class collectionModules {
 
 //        Scanner closes completely
         inputing.close();
-
+//rklekqwlekqlek
 
     }
-
-
 
 
 }
