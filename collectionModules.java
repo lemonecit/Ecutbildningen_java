@@ -155,8 +155,7 @@ public class collectionModules {
         System.out.println("Totala bokstäver som har skrivits blir " + getTotalChars());
         System.out.println("Totala rader genom loop blir antal rad " + getTotalLines());
         System.out.println("Det längsta ordet av alla du skrev är \n" + getLongestString() + "\noch antal bokstav blir " + getLongestString().length());
-
-        System.out.println("hej");
+        
         sayBye();
         Tack();
 
