@@ -31,10 +31,23 @@ public class collectionModules {
         }
     }
 
-    //test
-    public void countCharAndLine(String line) {
-        TotalChars += line.length();
-        TotalLines++;
+    //just for fun, this is not included in the case
+    static void Tack() {
+
+        {
+            String[] tack = new String[]{
+                    "*****  ***   ****  *  *",
+                    "  *   *   *  *     * * ",
+                    "  *   *****  *     *** ",
+                    "  *   *   *  *     * * ",
+                    "  *   *   *   **** *  *"
+            };
+
+            for (String line : tack) {
+                System.out.println(line);
+
+            }
+        }
     }
 
 //    Going through simple for loop to check which of strings is longest
@@ -82,23 +95,10 @@ public class collectionModules {
 
     }
 
-    //just for fun, this is not included in the case
-    static void Tack() {
-
-        {
-            String[] tack = new String[]{
-                    "*****  ***   ****  *  *",
-                    "  *   *   *  *     * * ",
-                    "  *   *****  *     *** ",
-                    "  *   *   *  *     * * ",
-                    "  *   *   *   **** *  *"
-            };
-
-            for (String line : tack) {
-                System.out.println(line);
-
-            }
-        }
+    //test
+    public void countCharAndLine(String line) {
+        TotalChars += line.length();
+        TotalLines++;
     }
 
 
@@ -155,6 +155,8 @@ public class collectionModules {
         System.out.println("Totala bokstäver som har skrivits blir " + getTotalChars());
         System.out.println("Totala rader genom loop blir antal rad " + getTotalLines());
         System.out.println("Det längsta ordet av alla du skrev är \n" + getLongestString() + "\noch antal bokstav blir " + getLongestString().length());
+
+        System.out.println("hej");
         sayBye();
         Tack();
 
