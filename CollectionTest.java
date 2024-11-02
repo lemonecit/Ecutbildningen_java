@@ -1,6 +1,7 @@
 package inlamningsuppgift_first;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CollectionTest {
@@ -19,7 +20,7 @@ public class CollectionTest {
         check.countCharAndLine("abc");
         check.countCharAndLine("def");
         check.countCharAndLine("ghi");
-        
+
         assertEquals(3, check.getTotalLines());
     }
 
